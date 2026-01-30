@@ -1,0 +1,21 @@
+{
+  "name": "@beworking/stripe-client",
+  "version": "0.1.0",
+  "description": "Typed client for Beworking Stripe service",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rimraf dist",
+    "lint": "eslint 'src/**/*.{ts,tsx}'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "20.11.9",
+    "eslint": "8.56.0",
+    "rimraf": "5.0.5",
+    "typescript": "5.3.3"
+  },
+  "peerDependencies": {},
+  "license": "MIT"
+}
